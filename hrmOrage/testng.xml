@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="resources.listeners"></listener>
+<listener class-name="resources.ExtentReporterNG"></listener>
+</listeners>
+  <test  name="actionsTest">
+    <classes>
+      <class name="hrm.userCheckBox"/>
+ </classes>
+ </test>
+  <test  name="dinamicTest">
+    <classes>
+      <class name="hrm.webElement"/>
+</classes>
+</test>
+<test  name="homeTest">
+      <classes>
+      <class name="hrm.homePage"/>
+</classes>
+</test>
+<test  name="loginTest">
+      <classes>
+      <class name="hrm.dinamicDropdowns"/>
+ </classes>
+ </test>
+ <test  name="radioTest">
+      <classes>
+      <class name="hrm.actionsMethods"/>
+</classes>
+ </test>
+ <test  name="checkboxTest">
+      <classes>
+      <class name="hrm.radioButtons"/>
+</classes>
+</test>
+<test  name="webElementTest">
+      <classes>
+     
+      <class name="hrm.loginPage"/>
+</classes>
+</test>
+ <test  name="handlersTest">
+      <classes>
+      <class name="hrm.windowHandlers"/>
+    </classes>
+    
+   <test  name="frames">
+      <classes>
+      <class name="hrm.frames"/>
+    </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,7 @@
+22:07:09.816 [main] INFO  resources.base - Get Login class from base.
+22:07:14.194 [main] INFO  resources.base - Successfully get driver.
+22:07:16.123 [main] INFO  resources.base - Get Login class from base.
+22:07:17.028 [main] INFO  resources.base - Verify Static dropdowns.
+22:07:24.618 [main] INFO  resources.base - Successfully Logged in and Logged out.
+22:07:29.677 [main] INFO  resources.base - Validated Empty User Name. 
+22:07:34.731 [main] INFO  resources.base - Validated Empty User Password. 

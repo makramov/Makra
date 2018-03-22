@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="resources.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="homeTest(failed)">
+    <classes>
+      <class name="hrm.homePage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="before"/>
+          <include name="verifyhomePageBar"/>
+        </methods>
+      </class> <!-- hrm.homePage -->
+    </classes>
+  </test> <!-- homeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
