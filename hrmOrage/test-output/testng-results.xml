@@ -1,25 +1,249 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8532" started-at="2018-03-22T16:36:35Z" finished-at="2018-03-22T16:36:43Z">
+  <suite name="Suite" duration-ms="126309" started-at="2018-03-22T19:12:23Z" finished-at="2018-03-22T19:14:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8532" started-at="2018-03-22T16:36:35Z" finished-at="2018-03-22T16:36:43Z">
-      <class name="hrm.frames">
-        <test-method status="PASS" signature="before()[pri:0, instance:hrm.frames@6eebc39e]" name="before" is-config="true" duration-ms="7376" started-at="2018-03-22T16:36:35Z" finished-at="2018-03-22T16:36:42Z">
+    <test name="UserCheckboxTest" duration-ms="10254" started-at="2018-03-22T19:12:23Z" finished-at="2018-03-22T19:12:33Z">
+      <class name="hrm.userCheckBox">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.userCheckBox@f6c48ac]" name="before" is-config="true" duration-ms="9354" started-at="2018-03-22T19:12:23Z" finished-at="2018-03-22T19:12:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="handleFrames()[pri:0, instance:hrm.frames@6eebc39e]" name="handleFrames" duration-ms="351" started-at="2018-03-22T16:36:42Z" finished-at="2018-03-22T16:36:42Z">
+        <test-method status="PASS" signature="checkBoxes()[pri:0, instance:hrm.userCheckBox@f6c48ac]" name="checkBoxes" duration-ms="124" started-at="2018-03-22T19:12:32Z" finished-at="2018-03-22T19:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBoxes -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.userCheckBox@f6c48ac]" name="tearDown" is-config="true" duration-ms="744" started-at="2018-03-22T19:12:32Z" finished-at="2018-03-22T19:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.userCheckBox -->
+    </test> <!-- UserCheckboxTest -->
+    <test name="WebElementTest" duration-ms="14218" started-at="2018-03-22T19:12:33Z" finished-at="2018-03-22T19:12:47Z">
+      <class name="hrm.webElement">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.webElement@ff5b51f]" name="before" is-config="true" duration-ms="12704" started-at="2018-03-22T19:12:33Z" finished-at="2018-03-22T19:12:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validateWebElement()[pri:0, instance:hrm.webElement@ff5b51f]" name="validateWebElement" duration-ms="721" started-at="2018-03-22T19:12:46Z" finished-at="2018-03-22T19:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateWebElement -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.webElement@ff5b51f]" name="tearDown" is-config="true" duration-ms="785" started-at="2018-03-22T19:12:47Z" finished-at="2018-03-22T19:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.webElement -->
+    </test> <!-- WebElementTest -->
+    <test name="homePageTest" duration-ms="15962" started-at="2018-03-22T19:12:47Z" finished-at="2018-03-22T19:13:03Z">
+      <class name="hrm.homePage">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.homePage@29ca901e]" name="before" is-config="true" duration-ms="7218" started-at="2018-03-22T19:12:47Z" finished-at="2018-03-22T19:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="verifyhomePageBar()[pri:0, instance:hrm.homePage@29ca901e]" name="verifyhomePageBar" duration-ms="47" started-at="2018-03-22T19:12:55Z" finished-at="2018-03-22T19:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomePageBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.homePage@29ca901e]" name="tearDown" is-config="true" duration-ms="699" started-at="2018-03-22T19:12:55Z" finished-at="2018-03-22T19:12:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.homePage@29ca901e]" name="before" is-config="true" duration-ms="5948" started-at="2018-03-22T19:12:55Z" finished-at="2018-03-22T19:13:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="StaticDropdowns()[pri:1, instance:hrm.homePage@29ca901e]" name="StaticDropdowns" duration-ms="1281" started-at="2018-03-22T19:13:01Z" finished-at="2018-03-22T19:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StaticDropdowns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.homePage@29ca901e]" name="tearDown" is-config="true" duration-ms="751" started-at="2018-03-22T19:13:03Z" finished-at="2018-03-22T19:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.homePage -->
+    </test> <!-- homePageTest -->
+    <test name="dinamicDropdownsTest" duration-ms="10523" started-at="2018-03-22T19:13:03Z" finished-at="2018-03-22T19:13:14Z">
+      <class name="hrm.dinamicDropdowns">
+        <test-method status="PASS" signature="beore()[pri:0, instance:hrm.dinamicDropdowns@64bfbc86]" name="beore" is-config="true" duration-ms="8925" started-at="2018-03-22T19:13:03Z" finished-at="2018-03-22T19:13:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beore -->
+        <test-method status="PASS" signature="HandlingdinamicDropdowns()[pri:0, instance:hrm.dinamicDropdowns@64bfbc86]" name="HandlingdinamicDropdowns" duration-ms="845" started-at="2018-03-22T19:13:12Z" finished-at="2018-03-22T19:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HandlingdinamicDropdowns -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.dinamicDropdowns@64bfbc86]" name="tearDown" is-config="true" duration-ms="745" started-at="2018-03-22T19:13:13Z" finished-at="2018-03-22T19:13:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.dinamicDropdowns -->
+    </test> <!-- dinamicDropdownsTest -->
+    <test name="framesTest" duration-ms="8234" started-at="2018-03-22T19:13:14Z" finished-at="2018-03-22T19:13:22Z">
+      <class name="hrm.frames">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.frames@617faa95]" name="before" is-config="true" duration-ms="7182" started-at="2018-03-22T19:13:14Z" finished-at="2018-03-22T19:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="handleFrames()[pri:0, instance:hrm.frames@617faa95]" name="handleFrames" duration-ms="332" started-at="2018-03-22T19:13:21Z" finished-at="2018-03-22T19:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleFrames -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.frames@6eebc39e]" name="tearDown" is-config="true" duration-ms="769" started-at="2018-03-22T16:36:42Z" finished-at="2018-03-22T16:36:43Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.frames@617faa95]" name="tearDown" is-config="true" duration-ms="716" started-at="2018-03-22T19:13:22Z" finished-at="2018-03-22T19:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- hrm.frames -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- framesTest -->
+    <test name="actionsMethodsTest" duration-ms="7745" started-at="2018-03-22T19:13:22Z" finished-at="2018-03-22T19:13:30Z">
+      <class name="hrm.actionsMethods">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.actionsMethods@71318ec4]" name="before" is-config="true" duration-ms="6074" started-at="2018-03-22T19:13:22Z" finished-at="2018-03-22T19:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="validateActions()[pri:0, instance:hrm.actionsMethods@71318ec4]" name="validateActions" duration-ms="949" started-at="2018-03-22T19:13:28Z" finished-at="2018-03-22T19:13:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateActions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.actionsMethods@71318ec4]" name="tearDown" is-config="true" duration-ms="710" started-at="2018-03-22T19:13:29Z" finished-at="2018-03-22T19:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.actionsMethods -->
+    </test> <!-- actionsMethodsTest -->
+    <test name="radioButtonsTest" duration-ms="9323" started-at="2018-03-22T19:13:30Z" finished-at="2018-03-22T19:13:39Z">
+      <class name="hrm.radioButtons">
+        <test-method status="PASS" signature="Before()[pri:0, instance:hrm.radioButtons@5ec0a365]" name="Before" is-config="true" duration-ms="8287" started-at="2018-03-22T19:13:30Z" finished-at="2018-03-22T19:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Before -->
+        <test-method status="PASS" signature="radiobtn()[pri:0, instance:hrm.radioButtons@5ec0a365]" name="radiobtn" duration-ms="295" started-at="2018-03-22T19:13:38Z" finished-at="2018-03-22T19:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radiobtn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.radioButtons@5ec0a365]" name="tearDown" is-config="true" duration-ms="737" started-at="2018-03-22T19:13:39Z" finished-at="2018-03-22T19:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.radioButtons -->
+    </test> <!-- radioButtonsTest -->
+    <test name="loginPageTest" duration-ms="40008" started-at="2018-03-22T19:13:40Z" finished-at="2018-03-22T19:14:20Z">
+      <class name="hrm.loginPage">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="4956" started-at="2018-03-22T19:13:40Z" finished-at="2018-03-22T19:13:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="loginLogout()[pri:0, instance:hrm.loginPage@22ff4249]" name="loginLogout" duration-ms="3719" started-at="2018-03-22T19:13:44Z" finished-at="2018-03-22T19:13:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="726" started-at="2018-03-22T19:13:48Z" finished-at="2018-03-22T19:13:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="4992" started-at="2018-03-22T19:13:49Z" finished-at="2018-03-22T19:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="EmptyUserName()[pri:0, instance:hrm.loginPage@22ff4249]" name="EmptyUserName" duration-ms="268" started-at="2018-03-22T19:13:54Z" finished-at="2018-03-22T19:13:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="711" started-at="2018-03-22T19:13:54Z" finished-at="2018-03-22T19:13:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="4291" started-at="2018-03-22T19:13:55Z" finished-at="2018-03-22T19:13:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="EmptyUserPassword()[pri:0, instance:hrm.loginPage@22ff4249]" name="EmptyUserPassword" duration-ms="520" started-at="2018-03-22T19:13:59Z" finished-at="2018-03-22T19:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUserPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="765" started-at="2018-03-22T19:14:00Z" finished-at="2018-03-22T19:14:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="5116" started-at="2018-03-22T19:14:00Z" finished-at="2018-03-22T19:14:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="NegLogIn(java.lang.String, java.lang.String)[pri:0, instance:hrm.loginPage@22ff4249]" name="NegLogIn" duration-ms="756" started-at="2018-03-22T19:14:06Z" data-provider="getData" finished-at="2018-03-22T19:14:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegLogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="771" started-at="2018-03-22T19:14:06Z" finished-at="2018-03-22T19:14:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="4575" started-at="2018-03-22T19:14:07Z" finished-at="2018-03-22T19:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="NegLogIn(java.lang.String, java.lang.String)[pri:0, instance:hrm.loginPage@22ff4249]" name="NegLogIn" duration-ms="1268" started-at="2018-03-22T19:14:12Z" data-provider="getData" finished-at="2018-03-22T19:14:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegLogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="751" started-at="2018-03-22T19:14:13Z" finished-at="2018-03-22T19:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.loginPage@22ff4249]" name="before" is-config="true" duration-ms="4968" started-at="2018-03-22T19:14:14Z" finished-at="2018-03-22T19:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="EmptyUserNameUserPassword()[pri:0, instance:hrm.loginPage@22ff4249]" name="EmptyUserNameUserPassword" duration-ms="141" started-at="2018-03-22T19:14:19Z" depends-on-methods="hrm.loginPage.loginLogout" finished-at="2018-03-22T19:14:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUserNameUserPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.loginPage@22ff4249]" name="tearDown" is-config="true" duration-ms="696" started-at="2018-03-22T19:14:19Z" finished-at="2018-03-22T19:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.loginPage -->
+    </test> <!-- loginPageTest -->
+    <test name="windowHandlersTest" duration-ms="9588" started-at="2018-03-22T19:14:20Z" finished-at="2018-03-22T19:14:29Z">
+      <class name="hrm.windowHandlers">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.windowHandlers@1573f9fc]" name="before" is-config="true" duration-ms="6492" started-at="2018-03-22T19:14:20Z" finished-at="2018-03-22T19:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="handlersMathod()[pri:0, instance:hrm.windowHandlers@1573f9fc]" name="handlersMathod" duration-ms="2342" started-at="2018-03-22T19:14:26Z" finished-at="2018-03-22T19:14:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handlersMathod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.windowHandlers@1573f9fc]" name="tearDown" is-config="true" duration-ms="746" started-at="2018-03-22T19:14:28Z" finished-at="2018-03-22T19:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hrm.windowHandlers -->
+    </test> <!-- windowHandlersTest -->
+  </suite> <!-- Suite -->
 </testng-results>

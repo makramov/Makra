@@ -1,17 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test">
-    <classes>
-      <class name="hrm.userCheckBox"/>
-      <class name="hrm.webElement"/>
-      <class name="hrm.homePage"/>
-      <class name="hrm.dinamicDropdowns"/>
-      <class name="hrm.frames"/>
-      <class name="hrm.actionsMethods"/>
-      <class name="hrm.radioButtons"/>
-      <class name="hrm.loginPage"/>
-      <class name="hrm.windowHandlers"/>
+
+  <listeners>
+  <listener class-name="resources.listeners"></listener>
+  <listener class-name="resources.ExtentReporterNG"></listener>
+  </listeners>
+    
+  <test  name="UserCheckboxTest">
+  <classes>
+  <class name="hrm.userCheckBox"/>
+  </classes>
+  </test>
+  
+   <test  name="WebElementTest">
+  <classes>
+  <class name="hrm.webElement"/>
+  </classes>
+  </test>
+  
+  <test  name="homePageTest">
+  <classes>
+  <class name="hrm.homePage"/>
+  </classes>
+  </test>
+  
+  <test  name="dinamicDropdownsTest">
+  <classes>
+  <class name="hrm.dinamicDropdowns"/>
+  </classes>
+  </test>
+  
+  <test  name="framesTest">
+  <classes>
+  <class name="hrm.frames"/>
+  </classes>
+  </test>
+  
+  <test  name="actionsMethodsTest">
+  <classes>
+  <class name="hrm.actionsMethods"/>
+  </classes>
+  </test>
+  
+  <test  name="radioButtonsTest">
+  <classes>
+  <class name="hrm.radioButtons"/>
+  </classes>
+  </test>
+  
+  <test  name="loginPageTest">
+  <classes>
+ <class name="hrm.loginPage"/>
+  </classes>
+  </test>
+  
+  <test  name="windowHandlersTest">
+  <classes>
+  <class name="hrm.windowHandlers"/>
     </classes>
   </test> <!-- Test -->
+
 </suite> <!-- Suite -->
