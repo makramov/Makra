@@ -45,7 +45,7 @@
       <classes>
       <class name="hrm.windowHandlers"/>
     </classes>
-    
+  </test>  
    <test  name="frames">
       <classes>
       <class name="hrm.frames"/>
