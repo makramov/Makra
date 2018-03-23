@@ -59,6 +59,11 @@
   <classes>
   <class name="hrm.windowHandlers"/>
     </classes>
+    </test>
+   <test  name="linksHandlong">
+  <classes>
+  <class name="hrm.linksHandlong"/>
+    </classes> 
   </test> <!-- Test -->
 
 </suite> <!-- Suite -->

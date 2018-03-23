@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrm.frames">
+      <class name="hrm.linksHandlong">
         <methods>
+          <include name="tearDown"/>
           <include name="before"/>
-          <include name="handleFrames"/>
+          <include name="handleLink"/>
         </methods>
-      </class> <!-- hrm.frames -->
+      </class> <!-- hrm.linksHandlong -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,4 +1,7 @@
-12:36:10.076 [main] INFO  resources.base - Validated Empty User Password. 
-12:36:16.099 [main] INFO  resources.base - Negative log in is denied.
-12:36:22.998 [main] INFO  resources.base - Negative log in is denied.
-12:36:28.222 [main] INFO  resources.base - Validated Empty User Name and User Password
+21:23:54.814 [main] INFO  resources.base - Verify Static dropdowns.
+21:24:38.922 [main] INFO  resources.base - Successfully Logged in and Logged out.
+21:24:43.944 [main] INFO  resources.base - Validated Empty User Name. 
+21:24:48.976 [main] INFO  resources.base - Validated Empty User Password. 
+21:24:54.413 [main] INFO  resources.base - Negative log in is denied.
+21:25:05.391 [main] INFO  resources.base - Negative log in is denied.
+21:25:10.481 [main] INFO  resources.base - Validated Empty User Name and User Password
