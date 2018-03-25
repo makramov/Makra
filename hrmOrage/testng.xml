@@ -54,13 +54,13 @@
  <class name="hrm.loginPage"/>
   </classes>
   </test>
-  
+    
   <test  name="windowHandlersTest">
   <classes>
   <class name="hrm.windowHandlers"/>
     </classes>
     </test>
-   
+    
   <test  name="calendarsTest">
   <classes>
   <class name="hrm.calendars"/>

@@ -1,7 +1,7 @@
-19:45:12.446 [main] INFO  resources.base - Successfully get driver.
-19:45:17.555 [main] INFO  resources.base - Get Login class from base.
-19:45:17.627 [main] INFO  resources.base - homePageBar is displayed.
-19:45:22.220 [main] INFO  resources.base - Successfully get driver.
-19:45:27.539 [main] INFO  resources.base - Get Login class from base.
-19:45:28.701 [main] INFO  resources.base - Verify Static dropdowns.
-19:46:17.950 [main] INFO  resources.base - Successfully Logged in and Logged out.
+20:00:54.525 [main] INFO  resources.base - Get Login class from base.
+20:00:55.688 [main] INFO  resources.base - Verify Static dropdowns.
+20:01:41.968 [main] INFO  resources.base - Successfully Logged in and Logged out.
+20:01:47.376 [main] INFO  resources.base - Validated Empty User Name. 
+20:01:52.712 [main] INFO  resources.base - Validated Empty User Password. 
+20:01:58.829 [main] INFO  resources.base - Negative log in is denied.
+20:02:07.238 [main] INFO  resources.base - Negative log in is denied.
