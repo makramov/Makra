@@ -26,7 +26,7 @@ public void before() throws IOException {
 public void handleLink() {
 	
 int number =driver.findElements(By.tagName("a")).size();
-Assert.assertEquals(number,379);
+Assert.assertEquals(number,380);
 
 WebElement footer= driver.findElement(By.xpath("//footer[@id='glbfooter']"));
 int footnumber=footer.findElements(By.tagName("a")).size();

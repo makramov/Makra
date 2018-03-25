@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9557" started-at="2018-03-23T04:19:51Z" finished-at="2018-03-23T04:20:01Z">
+  <suite name="Default suite" duration-ms="13330" started-at="2018-03-25T02:39:07Z" finished-at="2018-03-25T02:39:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9557" started-at="2018-03-23T04:19:51Z" finished-at="2018-03-23T04:20:01Z">
-      <class name="hrm.linksHandlong">
-        <test-method status="PASS" signature="before()[pri:0, instance:hrm.linksHandlong@6eebc39e]" name="before" is-config="true" duration-ms="6125" started-at="2018-03-23T04:19:51Z" finished-at="2018-03-23T04:19:57Z">
+    <test name="Default test" duration-ms="13330" started-at="2018-03-25T02:39:07Z" finished-at="2018-03-25T02:39:20Z">
+      <class name="hrm.calendars">
+        <test-method status="PASS" signature="before()[pri:0, instance:hrm.calendars@6eebc39e]" name="before" is-config="true" duration-ms="9863" started-at="2018-03-25T02:39:07Z" finished-at="2018-03-25T02:39:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="handleLink()[pri:0, instance:hrm.linksHandlong@6eebc39e]" name="handleLink" duration-ms="2548" started-at="2018-03-23T04:19:57Z" finished-at="2018-03-23T04:20:00Z">
+        <test-method status="PASS" signature="handleCalendars()[pri:0, instance:hrm.calendars@6eebc39e]" name="handleCalendars" duration-ms="2710" started-at="2018-03-25T02:39:17Z" finished-at="2018-03-25T02:39:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleLink -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.linksHandlong@6eebc39e]" name="tearDown" is-config="true" duration-ms="833" started-at="2018-03-23T04:20:00Z" finished-at="2018-03-23T04:20:01Z">
+        </test-method> <!-- handleCalendars -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hrm.calendars@6eebc39e]" name="tearDown" is-config="true" duration-ms="719" started-at="2018-03-25T02:39:20Z" finished-at="2018-03-25T02:39:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- hrm.linksHandlong -->
+      </class> <!-- hrm.calendars -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

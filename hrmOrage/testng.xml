@@ -60,6 +60,13 @@
   <class name="hrm.windowHandlers"/>
     </classes>
     </test>
+   
+  <test  name="calendarsTest">
+  <classes>
+  <class name="hrm.calendars"/>
+    </classes>
+    </test>
+  
    <test  name="linksHandlong">
   <classes>
   <class name="hrm.linksHandlong"/>

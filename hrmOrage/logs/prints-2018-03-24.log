@@ -1,0 +1,7 @@
+19:45:12.446 [main] INFO  resources.base - Successfully get driver.
+19:45:17.555 [main] INFO  resources.base - Get Login class from base.
+19:45:17.627 [main] INFO  resources.base - homePageBar is displayed.
+19:45:22.220 [main] INFO  resources.base - Successfully get driver.
+19:45:27.539 [main] INFO  resources.base - Get Login class from base.
+19:45:28.701 [main] INFO  resources.base - Verify Static dropdowns.
+19:46:17.950 [main] INFO  resources.base - Successfully Logged in and Logged out.
