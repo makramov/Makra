@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrm.calendars">
+      <class name="hrm.tables">
         <methods>
-          <include name="handleCalendars"/>
+          <include name="validateTable"/>
           <include name="before"/>
         </methods>
-      </class> <!-- hrm.calendars -->
+      </class> <!-- hrm.tables -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

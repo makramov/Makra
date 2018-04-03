@@ -25,8 +25,8 @@ public class frames extends base{
 	public void handleFrames() {
 		
 	driver.switchTo().frame(0);
-WebElement source	=driver.findElement(By.xpath("//div[@id='draggable']"));
-WebElement target=	driver.findElement(By.xpath("//div[@id='droppable']"));
+   WebElement source	=driver.findElement(By.xpath("//div[@id='draggable']"));
+   WebElement target=	driver.findElement(By.xpath("//div[@id='droppable']"));
 	act.dragAndDrop(source, target).build().perform();
 driver.switchTo().defaultContent();	
 	}
