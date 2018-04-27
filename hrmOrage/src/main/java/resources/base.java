@@ -17,65 +17,63 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class base {
-	
+
 	public static WebDriver driver;
 	public Properties prop;
-	public WebDriverWait wait; 
+	public WebDriverWait wait;
 	public Actions act;
 	public Logger log;
-	
+
 	public WebDriver getDriver() throws IOException {
-	 	
-	prop = new Properties();
-	FileInputStream fils = new FileInputStream("C:\\Users\\Makra\\hrmOrage\\src\\main\\java\\resources\\data.properties");
-	prop.load(fils);
-	String browserName = prop.getProperty("browser");
-	
-	if(browserName.equals("chrome")) {
-		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Makra\\hrmOrage\\src\\main\\java\\resources\\chromedriver.exe");
-		 driver= new ChromeDriver();
-	}
-	
-	else if(browserName.equals("firefox")) {
-		System.setProperty("webdriver.gecko.driver", "C:\\Users\\Makra\\hrmOrage\\src\\main\\java\\resources\\geckodriver.exe");
-		 driver= new FirefoxDriver();
-		
-		
-	}
-	
-	else {
-		System.setProperty("webdriver.IE.driver", "C:\\Users\\Makra\\hrmOrage\\src\\main\\java\\resources\\IEDriverServer.exe");
-		driver= new InternetExplorerDriver();
-		
-	}
-	
-    driver.manage().window().maximize();
-    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    wait = new WebDriverWait(driver, 10);
-	act = new Actions(driver);
-	log = LogManager.getLogger(base.class.getName());
-	
-	return driver;
+
+		prop = new Properties();
+		FileInputStream fils = new FileInputStream(
+				"/Users/makra/Makra/hrmOrage/src/main/java/resources/data.properties");
+		prop.load(fils);
+		String browserName = prop.getProperty("browser");
+
+		if (browserName.equals("chrome")) {
+
+			System.setProperty("webdriver.chrome.driver", "/Users/makra/Desktop/java/Drivers/chromedriver");
+			driver = new ChromeDriver();
+		}
+
+		else if (browserName.equals("firefox")) {
+			System.setProperty("webdriver.gecko.driver", "/Users/makra/Desktop/java/Drivers/geckodriver");
+			driver = new FirefoxDriver();
+
+		}
+
+		else {
+			driver = new SafariDriver();
+		}
+
+		driver.manage().window().fullscreen();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		wait = new WebDriverWait(driver, 10);
+		act = new Actions(driver);
+		log = LogManager.getLogger(base.class.getName());
+
+		return driver;
 	}
 
 	public void LogIn() {
-		
+
 		driver.get(prop.getProperty("url"));
 		driver.findElement(By.xpath("//input[@id='txtUsername']")).sendKeys(prop.getProperty("username"));
-        driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys(prop.getProperty("password"));
-        driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
+		driver.findElement(By.xpath("//input[@id='txtPassword']")).sendKeys(prop.getProperty("password"));
+		driver.findElement(By.xpath("//input[@id='btnLogin']")).click();
 	}
-	
+
 	public void getScreenShot(String result) throws IOException {
-		
-		File src =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("C:\\hrm\\"+result+"screenshot.png"));
-		
+
+		File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(src, new File("C:\\hrm\\" + result + "screenshot.png"));
+
 	}
-	
-	
+
 }

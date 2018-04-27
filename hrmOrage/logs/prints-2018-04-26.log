@@ -1,0 +1,8 @@
+21:39:49.610 [main] INFO  resources.base - Get Login class from base.
+21:39:49.661 [main] INFO  resources.base - homePageBar is displayed.
+21:39:50.989 [main] INFO  resources.base - Successfully get driver.
+21:39:53.076 [main] INFO  resources.base - Get Login class from base.
+21:39:54.009 [main] INFO  resources.base - Verify Static dropdowns.
+21:40:17.151 [main] INFO  resources.base - Successfully Logged in and Logged out.
+21:40:20.582 [main] INFO  resources.base - Validated Empty User Name. 
+21:40:23.199 [main] INFO  resources.base - Validated Empty User Password. 

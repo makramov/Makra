@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="hrm.tables">
+      <class name="hrm.dinamicDropdowns">
         <methods>
-          <include name="validateTable"/>
-          <include name="before"/>
+          <include name="HandlingdinamicDropdowns"/>
+          <include name="beore"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- hrm.tables -->
+      </class> <!-- hrm.dinamicDropdowns -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
