@@ -63,7 +63,7 @@
     
   <test  name="calendarsTest">
   <classes>
-  <class name="hrm.calendars"/>
+  <class name="hrm.calendar"/>
     </classes>
     </test>
   

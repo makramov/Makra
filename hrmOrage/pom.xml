@@ -8,13 +8,13 @@
   <name>hrmOrage</name>
   <url>http://maven.apache.org</url>
   <build>
-  <resources>               
+  <resources>                
                 <resource>
                   <directory>src/main/java/resources</directory>
                   <filtering>true</filtering>
                 </resource>
               </resources>  
-  <plugins>
+  <plugins> 
     
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -26,7 +26,7 @@
           </suiteXmlFiles>
         </configuration>
                     
-      </plugin>
+      </plugin> 
     
 </plugins>
 
