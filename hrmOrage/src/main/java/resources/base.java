@@ -32,13 +32,13 @@ public class base {
 
 		prop = new Properties();
 		FileInputStream fils = new FileInputStream(
-				"/Users/makra/Makra/hrmOrage/src/main/java/resources/data.properties");
+				"C:\\Users\\Mansur\\Makra\\hrmOrage\\src\\main\\java\\resources\\data.properties");
 		prop.load(fils);
 		String browserName = prop.getProperty("browser");
 
 		if (browserName.equals("chrome")) {
 
-			System.setProperty("webdriver.chrome.driver", "/Users/makra/Desktop/java/Drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Mansur\\Desktop\\eclipse-workspace\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 
