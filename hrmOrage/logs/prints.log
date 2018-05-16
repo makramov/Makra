@@ -1,4 +1,4 @@
-21:16:23.375 [main] INFO  resources.base - Validated Empty User Name. 
-21:16:28.304 [main] INFO  resources.base - Validated Empty User Password. 
-21:16:33.334 [main] INFO  resources.base - Negative log in is denied.
-21:16:38.653 [main] INFO  resources.base - Negative log in is denied.
+09:29:39.781 [main] INFO  resources.base - Validated Empty User Name. 
+09:29:45.125 [main] INFO  resources.base - Validated Empty User Password. 
+09:29:50.312 [main] INFO  resources.base - Negative log in is denied.
+09:29:55.792 [main] INFO  resources.base - Negative log in is denied.

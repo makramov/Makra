@@ -1,0 +1,8 @@
+21:16:23.375 [main] INFO  resources.base - Validated Empty User Name. 
+21:16:28.304 [main] INFO  resources.base - Validated Empty User Password. 
+21:16:33.334 [main] INFO  resources.base - Negative log in is denied.
+21:16:38.653 [main] INFO  resources.base - Negative log in is denied.
+09:27:55.439 [main] INFO  resources.base - Successfully get driver.
+09:27:56.846 [main] INFO  resources.base - Get Login class from base.
+09:28:06.053 [main] INFO  resources.base - Successfully get driver.
+09:28:07.484 [main] INFO  resources.base - Get Login class from base.

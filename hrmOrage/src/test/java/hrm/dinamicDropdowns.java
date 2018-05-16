@@ -40,7 +40,7 @@ public class dinamicDropdowns extends base {
 	
 	public void tearDown() {
 		
-		//driver.quit();
+		driver.quit();
 	}
 	
 }

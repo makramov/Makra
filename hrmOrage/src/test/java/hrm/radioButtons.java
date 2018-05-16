@@ -43,7 +43,7 @@ public class radioButtons extends base {
 
 	public void tearDown() {
 
-	//	driver.quit();
+	driver.quit();
 	}
 
 }

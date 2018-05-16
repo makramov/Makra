@@ -6,7 +6,7 @@
   <listener class-name="resources.listeners"></listener>
   <listener class-name="resources.ExtentReporterNG"></listener>
   </listeners>
-    
+     
   <test  name="UserCheckboxTest">
   <classes>
   <class name="hrm.userCheckBox"/>

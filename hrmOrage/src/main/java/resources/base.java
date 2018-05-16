@@ -52,7 +52,7 @@ public class base {
 			driver = new SafariDriver();
 		}
 
-		driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		wait = new WebDriverWait(driver, 10);
 		act = new Actions(driver);
